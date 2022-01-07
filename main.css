@@ -127,7 +127,7 @@ body {
 
 /* Home Page */
 #hero {
-    background-image: url("assets/chino-rocha-2FKTyJqfWX8-unsplash.jpg");
+    background-image: url("assets/banner1.jpg");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -275,7 +275,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(./assets/dmitry-kropachev-4sTyT-uuJWY-unsplash1.jpg);
+    background-image: url(./assets/banner2.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -315,7 +315,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(./assets/darko-nesic-VZEnVM6c1lY-unsplash.jpg);
+    background-image: url(./assets/banner3.jpg);
     min-width: 49%;
     height: 50vh;
     background-size: cover;
@@ -323,7 +323,7 @@ body {
     padding: 30px;
 }
 #sm-banner .banner-box.banner-box2 {
-    background-image: url(./assets/noah-buscher-jyQChhw-WbI-unsplash.jpg);
+    background-image: url(./assets/banner4.jpg);
 }
 #sm-banner h4 {
     color: #fff;
@@ -358,7 +358,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(./assets/mohammed-jaafar-yFH5JSzBzlw-unsplash.jpg);
+    background-image: url(./assets/banner5.jpg);
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -367,10 +367,10 @@ body {
     margin-bottom: 20px;
 }
 #banner3 .banner-box.banner-box2 {
-    background-image: url(./assets/jordan-nix-4Hmj9gkyM6c-unsplash.jpg);
+    background-image: url(./assets/banner6.jpg);
 }
 #banner3 .banner-box.banner-box3 {
-    background-image: url(./assets/john-fornander-y6_SJpU3Alk-unsplash.jpg);
+    background-image: url(./assets/banner7.jpg);
 }
 #banner3 h2 {
     color: #fff;
@@ -389,7 +389,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(./assets/casey-horner-RmoWqDCqN2E-unsplash.jpg);
+    background-image: url(./assets/n1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #041e42;
@@ -480,7 +480,7 @@ footer .copyright {
 
 /* ******************** SHOP PAGE ******************** */
 #page-header {
-    background-image: url(./assets/yan-berthemy-3cKeoCLvM4Y-unsplash23.jpg);
+    background-image: url(./assets/shead.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -560,7 +560,7 @@ footer .copyright {
 
 /* ******************** BLOG PAGE ******************** */
 #page-header.blog-header {
-    background-image: url(./assets/annie-spratt-Q2QhOxN5enk-unsplash.jpg);
+    background-image: url(./assets/bhead.jpg);
 }
 #blog {
     padding: 150px 150px 0 150px;
