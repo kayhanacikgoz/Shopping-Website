@@ -156,10 +156,11 @@ body {
     background-color: var(--primary-color);
     color: #fff;
     border: .5px solid var(--primary-color);
-    padding: 14px 80px 14px 65px;
+    padding: 14px 80px 14px 80px;
 }
 #hero button:hover {
-    opacity: .8;
+    background-color: rgb(253, 85, 46);
+    border: .5px solid rgb(253, 85, 46);
 }
 
 /* Feature */
@@ -512,6 +513,7 @@ footer .copyright {
 /* ******************** SINGLE PRODUCT PAGE ******************** */
 #prodetails {
     display: flex;
+    padding: 30px 80px;
 }
 #prodetails .single-pro-image {
     flex: 2;
@@ -527,7 +529,7 @@ footer .copyright {
 }
 #prodetails .single-pro-details {
     flex: 5;
-    padding: 30px;
+    padding: 20px 30px;
 }
 #prodetails .single-pro-details h4 {
     padding: 40px 0 20px 0;
@@ -537,8 +539,9 @@ footer .copyright {
 }
 #prodetails .single-pro-details select {
     display: block;
-    padding: 5px 10px;
+    padding: 15px 10px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 #prodetails .single-pro-details input {
     width: 50px;
@@ -614,6 +617,41 @@ footer .copyright {
     font-weight: 700;
     color: #c9cbce;
     z-index: -9;
+}
+
+/* ******************** ABOUT PAGE ******************** */
+
+#page-header.about-header {
+    background-image: url("assets/about.jpg");
+}
+#about-head {
+    display: flex;
+    align-items: flex-start;
+}
+#about-head img {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+}
+#about-head div {
+    padding-left: 40px;
+}
+#about-head h4 {
+    font-weight: 800;
+}
+#about-app {
+    text-align: center;
+}
+#about-app .video {
+    width: 70%;
+    height: 100%;
+    margin-top: 30px;
+    margin: 30px auto 0 auto;
+}
+#about-app .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
 
 /* MEDIA QUERIES */
@@ -719,6 +757,9 @@ footer .copyright {
     #prodetails .single-pro-details {
         flex: 1;
     }
+    #about-head img {
+        width: 50%;
+    }
 }
 
 @media (max-width: 477px) {
@@ -796,6 +837,20 @@ footer .copyright {
         margin-bottom: 30px;
     }
     #blog .blog-details {
+        width: 100%;
+    }
+    #about-head {
+        flex-direction: column;
+    }
+    #about-head img {
+        width: 100%;
+        border-radius: 6px;
+        margin-bottom: 20px;
+    }
+    #about-head div {
+        padding: 10px 2% 10px 2%;
+    }
+    #about-app .video {
         width: 100%;
     }
 }
